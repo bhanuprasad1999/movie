@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "movie",
+    "collectionId": "68512169-508e-493b-a62b-38c3ea2d9c26",
+    "dateExported": "2024-11-23T10:16:00.858Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "cb546ed8-add2-49de-aa80-e3b070b28bce",
+            "colId": "68512169-508e-493b-a62b-38c3ea2d9c26",
+            "containerId": "",
+            "name": "get movies",
+            "url": "localhost:8000/movies",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-11-23T10:08:19.061Z",
+            "modified": "2024-11-23T10:08:37.294Z",
+            "headers": []
+        },
+        {
+            "_id": "47b97d38-0638-405d-93f1-7951b098f40d",
+            "colId": "68512169-508e-493b-a62b-38c3ea2d9c26",
+            "containerId": "",
+            "name": "get movie",
+            "url": "localhost:8000/movies/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-11-23T10:08:49.892Z",
+            "modified": "2024-11-23T10:09:06.973Z",
+            "headers": []
+        },
+        {
+            "_id": "feee043d-9d29-4c34-839b-e111ef906d74",
+            "colId": "68512169-508e-493b-a62b-38c3ea2d9c26",
+            "containerId": "",
+            "name": "create movie",
+            "url": "localhost:8000/movies",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-11-23T10:09:23.637Z",
+            "modified": "2024-11-23T10:11:34.457Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"isbn\": \"564654\",\n  \"title\": \"Ram\",\n  \"Director\": {\n    \"firstname\":\"valmiki\",\n    \"lastname\":\"ram\"\n  }\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "2ddb2b34-5fad-4417-b2d9-401c4fc229d3",
+            "colId": "68512169-508e-493b-a62b-38c3ea2d9c26",
+            "containerId": "",
+            "name": "delete movies",
+            "url": "localhost:8000/movies/3013356456",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-11-23T10:11:56.891Z",
+            "modified": "2024-11-23T10:12:39.331Z",
+            "headers": []
+        },
+        {
+            "_id": "f4415188-a245-4259-86a4-774580114e7e",
+            "colId": "68512169-508e-493b-a62b-38c3ea2d9c26",
+            "containerId": "",
+            "name": "update movie",
+            "url": "localhost:8000/movies/4911466565",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-11-23T10:12:56.186Z",
+            "modified": "2024-11-23T10:14:13.266Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\n\n    \"isbn\": \"564654\",\n    \"title\": \"Ram\",\n    \"Director\": {\n      \"firstname\": \"valmiki\",\n      \"lastname\": \"\"\n    }\n  }",
+                "form": []
+            }
+        }
+    ],
+    "ref": "H1Z11uPyyrsV5nyj4E-ci3u7PCpKv9K302s06uTAokXR53NR2Q6K2F1WyI1Qg9pZokDiOGmkwcDXfj-5-i6N9w"
+}
